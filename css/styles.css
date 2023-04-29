@@ -125,17 +125,21 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 
 .titulo h1{
-    color: #fff;
-    position: relative;
-    text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 100px;
-    font-weight: 100;
-    font-variant: small-caps;
-    text-align: center;
-    margin-top: 260px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: calc(5rem + 1vw);
+  font-weight: 100;
+  font-variant: small-caps;
+  text-align: center;
+  margin-top: 260px;
+}
+@media (max-width: 450px) {
+  .titulo h1 {
+    font-size: calc((7rem + 1vw)/2);
   }
-
+}
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -12106,7 +12110,8 @@ swiper-slide img {
   height: auto;
 }
 
- 
+
+
 .trabajos {
   text-align: center;
   font-size: 50px;
