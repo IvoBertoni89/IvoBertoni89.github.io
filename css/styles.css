@@ -642,16 +642,16 @@ progress {
 }
 
 .img-fluid1 {
-  max-width: 60%;
+  max-width: 71.8%;
   height: 50%;
-  margin-left: 20%;
-  margin-top: 19px;
+  margin-left: 14.2%;
+  margin-top: 0px;
 }
 
 .img-fluid4 {
   max-width: 50%;
   height: 50%;
-  margin-top: 2px;
+  margin-top: 0px;
   margin-left: 102px;
 }
 
@@ -663,17 +663,17 @@ progress {
 }
 
 .img-fluid2 {
-  max-width: 50%;
+  max-width: 53.7%;
   height: 60%;
   margin-top: 0px;
-  margin-left: 82px;
+  margin-left: 20%;
 }
 
 .img-fluid3 {
   max-width: 50%;
   height: 50%;
   margin-top: 0px;
-  margin-left: 100px;
+  margin-left: 25.2%;
 }
 
 
@@ -11572,7 +11572,7 @@ header.masthead {
   font-size: 1.5rem;
   font-family: "abel", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  margin-top: 13px;
+  margin-top: 0px;
   background-color: #01010194;
   border: 1px solid #0fda69;
 }
@@ -11583,7 +11583,7 @@ header.masthead {
   font-size: 1.5rem;
   font-family: "abel", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  margin-top: 13px;
+  margin-top: 0px;
   background-color: #01010194;
   border: 1px solid #0fda69;
 
@@ -11611,7 +11611,6 @@ header.masthead {
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 3rem;
   line-height: 6rem;
-  text-shadow: -6px 2px 4px black;
   font-family: rubik;
 
 }
