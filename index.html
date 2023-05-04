@@ -322,80 +322,75 @@
             </div>
         </div> s-->
         <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contactanos</h2>
-                    <h3 class="section-subheading text-muted">Esperamos su Mensaje.</h3>
+        <section id="contact" class="contact section-bg page-section">
+            <div class="container" data-aos="fade-up">
+      
+              <div class="text-center">
+                <h2 class="section-heading text-uppercase">Contáctanos</h2>
+                <h3 class="section-subheading text-muted">Esperamos su Mensaje.</h3>
+              </div>
+      
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="info-box mb-4">
+                    <i class="fa-solid fa-location-dot" style="color: #00af4e; font-size: 50px;"></i>
+                    <h3>Nuestra Ubicación</h3>
+                    <p class="text-muted">Alberdi 11 - Rosario - Santa Fe - Argentina</p>
+                  </div>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Nombre*" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Es Necesario Introducir un Nombre.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Email*" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Es Necesario Introducir un Email.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Su Email NO es Valido.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Número de Teléfono*" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Es Necesario Introducir un Número de Teléfono.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Escribe tu Mensaje*" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Es Necesario Escribir un Mensaje.</div>
-                            </div>
-                        </div>
+      
+                <div class="col-lg-3 col-md-6">
+                  <div class="info-box  mb-4">
+                    <i class="fa-solid fa-envelope" style="color: #00af4e; font-size: 50px;"></i>
+                    <h3>Mail</h3>
+                    <p class="text-muted">info@kernelinformatica.com.ar</p>
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6">
+                  <div class="info-box  mb-4">
+                    <i class="fa-solid fa-phone" style="color: #00af4e; font-size: 50px;"></i>
+                    <h3>Telelefonos</h2>
+                    <p class="text-muted">(+54) 0341- 4388479 / 4309776</p>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="row">
+      
+                <div class="col-lg-6 ">
+                  <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.8237349627466!2d-60.677161124861335!3d-32.92925497100939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b654aa7e5592c9%3A0xdb582dba966d0232!2sAv.%20Alberdi%2011%2C%20S2013EPA%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1681427197537!5m2!1ses!2sar" frameborder="0" style="border:0; width: 100%; height: 413px;" allowfullscreen></iframe>
+                </div>
+      
+                <div class="col-lg-6">
+                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                      </div>
+                      <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                      </div>
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
+                    <div class="form-group mt-3">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Motivo" required>
                     </div>
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar</button></div>
-                    <div class="contenedor">
-                        <ul class="ListaContacto">
-                            <li><i class="fa-solid fa-building" style="color: #00af4e;"></i> Dirección: Alberdi 11 - Rosario - Santa Fe - Argentina</li>
-                            <p></p>
-                            <li><i class="fa-solid fa-phone" style="color: #00af4e;"></i> Telelefonos/Fax:  (54) 0341- 4388479 / 4309776</li>
-                            <p></p>
-                            <li><i class="fa-solid fa-envelope" style="color: #00af4e;"></i> Mail: info@kernelinformatica.com.ar</li>
-                            <p></p>
-                            <li><i class="fa-solid fa-clock" style="color: #00af4e;"></i> Horarios de Atención: de Lunes a Viernes de 8hs a 18:30hs</li>
-                          </ul>
-                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.8237349627466!2d-60.677161124861335!3d-32.92925497100939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b654aa7e5592c9%3A0xdb582dba966d0232!2sAv.%20Alberdi%2011%2C%20S2013EPA%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1681427197537!5m2!1ses!2sar" width="400" height="300" style="border: 1px; padding-left: 3px; padding-top: 0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="form-group mt-3">
+                      <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
                     </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    
-                </form>
+                    <div class="my-3">
+                      <div class="loading">Cargando</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Su mensaje fué enviado. Muchas Gracias!</div>
+                    </div>
+                    <p class="text-muted">Horarios de Atención de Lunes a Viernes de 8hs a 18:30hs.</p>
+                    <div class="text-center"><button type="submit">Enviar</button></div>
+                  </form>
+                </div>
+      
+              </div>
+      
             </div>
         </section>
         <!-- Footer-->
