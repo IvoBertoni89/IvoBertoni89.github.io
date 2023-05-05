@@ -4126,8 +4126,6 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   text-decoration: none;
@@ -11433,10 +11431,25 @@ p {
   border-radius: 100%;
 }
 
+@media (max-width: 420px){
+  #mainNav .navbar-brand {
+    font-size: 1.5rem;
+  }
+  #mainNav .navbar-brand p {
+    font-size: 13px;
+    margin-left: 37px;
+    line-height: 0;
+  }
+
+  #mainNav .navbar-brand img {
+    margin-bottom: -4px;
+    height: 2rem;
+  }
+
+}
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+
   background-color: #212529;
 }
 #mainNav .navbar-toggler {
@@ -11466,6 +11479,9 @@ p {
   color: #00af4e;
 }
 
+
+
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -11475,10 +11491,17 @@ p {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     transition: font-size 0.3s ease-in-out;
   }
+  #mainNav .navbar-brand p {
+    font-size: 13px;
+    margin-left: 45px;
+    transition: 0.29s ease-in-out;
+    line-height: 0;
+  }
   #mainNav .navbar-brand img {
+    margin-bottom: -7px;
     height: 2rem;
     transition: height 0.3s ease-in-out;
   }
@@ -11490,8 +11513,13 @@ p {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
+  #mainNav.navbar-shrink .navbar-brand p {
+    font-size: 10px;
+    margin-left: 35px;
+  }
   #mainNav.navbar-shrink .navbar-brand svg,
-#mainNav.navbar-shrink .navbar-brand img {
+  #mainNav.navbar-shrink .navbar-brand img {
+    margin-bottom: -5px;
     height: 1.5rem;
   }
   #mainNav .navbar-nav .nav-item {
@@ -11501,10 +11529,7 @@ p {
     margin-right: 0;
   }
 
-
-
-
-header.masthead {
+  header.masthead {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
@@ -12171,7 +12196,7 @@ swiper-slide img {
 @media (max-width: 995px) {
   .ms-1 {
     height: 1.1rem;
-    margin-top: -13px;
+    margin-bottom: -2px;
    
     
   }
@@ -12318,4 +12343,8 @@ swiper-slide img {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.Infor {
+  font-size: 20px;
 }
